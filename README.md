@@ -1,5 +1,5 @@
 # Ex01 Portfolio
-## Date:
+## Date: 06.02.2026
 
 ## AIM
 To create a Portfolio using HTML and CSS.
@@ -48,10 +48,185 @@ Deploy the Portfolio.
 Upload to GitHub Pages for free hosting.
 
 ## PROGRAM
+index.html
 
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <h2 class="logo">Portfolio</h2>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <section id="home" class="home">
+        <h1>Hi, I'm <span>ASHOK S</span></h1>
+        <p>212224040031</p>
+        <p>Web Developer | Student</p>
+    </section>
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <p>
+        Hello! I’m <strong>ASHOK S</strong>, a passionate and motivated student
+        with a strong interest in web development. I enjoy designing and
+        developing clean, user-friendly websites using modern web technologies.
+    </p>
+
+    <p>
+        I am currently learning HTML, CSS, and JavaScript, and I focus on
+        building responsive and visually appealing web pages. I like exploring
+        new tools and improving my problem-solving skills through practical
+        projects.
+    </p>
+
+    <p>
+        My goal is to become a skilled full-stack web developer and contribute
+        to real-world applications. I am always eager to learn, adapt, and grow
+        in the field of web development.
+    </p>
+    </section>
+    <section id="skills" class="skills">
+        <h2>My Skills</h2>
+        <ul>
+            <li><strong>HTML</strong></li>
+            <li><strong>CSS</STRONG></li>
+            <li><strong>JavaScript</strong></li>
+            <li><strong>Python</strong></li>
+            <li><strong>C Programming</strong></li>
+        </ul>
+    </section>
+    <section id="projects" class="projects">
+        <h2>Projects</h2>
+        <div class="project-box">Portfolio Website</div>
+        <div class="project-box">Student Management System</div>
+        <div class="project-box">Simple Calculator</div>
+    </section>
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <p>Email: ashok84737@gmail.com</p>
+        <p>Github: Ashok-S20.github</p>
+        <p>Phone: 9626832996</p>
+    </section>
+
+    
+
+</body>
+</html>
+```
+style.css
+
+```
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    background: rgb(172, 244, 245);
+    color: rgb(0, 0, 0);
+}
+
+nav {
+    background: #222;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: rgb(242, 220, 220);
+    text-decoration: none;
+}
+
+.home {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #000000, rgb(172, 244, 245));
+    color: rgb(17, 24, 40);
+}
+
+.home span {
+    color: rgb(0, 0, 0);
+}
+
+.home button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+section {
+    padding: 50px;
+    text-align: center;
+}
+
+.skills ul {
+    list-style: none;
+}
+
+.skills li {
+    background: #ddd;
+    margin: 10px;
+    padding: 10px;
+}
+
+.projects {
+    background: #fff;
+}
+
+.project-box {
+    background: #eee;
+    padding: 20px;
+    margin: 10px;
+    display: inline-block;
+}
+
+.contact {
+    background: #222;
+    color: white;
+}
+
+footer {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+```
 
 ## OUTPUT
-
+![alt text](<Screenshot (24).png>)
+![alt text](<Screenshot (25).png>)
 
 ## RESULT
 The program for creating Portfolio using HTML and CSS is executed successfully.
+
